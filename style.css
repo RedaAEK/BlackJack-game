@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+.container h1 {
+    color: goldenrod;
+}
+.container .message-one {
+    font-style: italic;
+}
+.container button {
+    width: 150px;
+    color: #016f32;
+    background-color: goldenrod;
+    border-radius: 2px;
+    padding: 0.5rem;
+    margin-bottom: 2px;
+}
+.container button:hover {
+    transform:scale3d(1.1 , 1.1 , 1.1);
+}
